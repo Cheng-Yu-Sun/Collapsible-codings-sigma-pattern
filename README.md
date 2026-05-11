@@ -95,7 +95,7 @@ This script saves the NRMSE results in `results/` and the generated boxplots in 
 
 ## Reproducing Table 1
 
-Table 1 reports Sigma-optimal $begin:math:text$4\^\{m\-\(m\-2\)\}$end:math:text$ regular designs for $begin:math:text$m \= 3\,4\,5$end:math:text$.
+Table 1 reports Sigma-optimal 4-level regular designs with 16 runs for m = 3, 4, 5.
 
 Run:
 
@@ -107,7 +107,7 @@ The final results are saved in `outputs/tables/`.
 
 ## Reproducing Table 2
 
-Table 2 reports Sigma-optimal $begin:math:text$4\^\{m\-\(m\-3\)\}$end:math:text$ regular designs for $begin:math:text$m \= 7\,\\ldots\,16$end:math:text$.
+Table 2 reports Sigma-optimal 4-level regular designs with 64 runs for m = 7, ..., 16.
 
 Run:
 
@@ -121,7 +121,7 @@ Intermediate files are saved in `outputs/Table2_intermediate/`.
 
 ## Reproducing Table 3
 
-Table 3 reports Sigma-optimal or nearly Sigma-optimal $begin:math:text$9\^\{m\-\(m\-2\)\}$end:math:text$ regular designs for $begin:math:text$m \= 3\,\\ldots\,10$end:math:text$.
+Table 3 reports Sigma-optimal or nearly Sigma-optimal 9-level regular designs with 81 runs for m = 3, ..., 10.
 
 Run:
 
@@ -129,9 +129,9 @@ Run:
 source("R/Table3_regular_9level_81run.R")
 ```
 
-For $begin:math:text$m \= 3\,4\,5$end:math:text$, the designs are obtained by exhaustive search with complete Sigma-pattern comparison.
+For m = 3, 4, 5, the designs are obtained by exhaustive search with complete Sigma-pattern comparison.
 
-For $begin:math:text$m \= 6\,\\ldots\,10$end:math:text$, the designs are obtained by the partial iterative procedure described in the Supplement and are reported as nearly Sigma-optimal.
+For m = 6, ..., 10, the designs are obtained by the partial iterative procedure described in the Supplement and are reported as nearly Sigma-optimal.
 
 The final results are saved in `outputs/tables/`.
 
