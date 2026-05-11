@@ -28,9 +28,17 @@ To reproduce the results, please download or clone the entire repository, open R
 │   └── D_SP.rds
 ├── results/
 └── outputs/
+    ├── figures/
+    ├── tables/
+    ├── Table2_intermediate/
+    └── Table3_intermediate/
 ```
 
-The `results/` and `outputs/` folders are used for storing generated numerical results, figures, tables, and intermediate files. If these folders are not already present, the scripts will create them automatically when needed.
+The `results/` folder is used for storing generated numerical results from the simulation scripts.
+
+The `outputs/` folder is used for storing generated figures, tables, and intermediate files. In particular, `outputs/figures/` stores the generated boxplots, `outputs/tables/` stores the final table outputs, and `outputs/Table2_intermediate/` and `outputs/Table3_intermediate/` store intermediate files for the regular-design searches.
+
+If these folders are not already present, the scripts will create them automatically when needed.
 
 ## Required R packages
 
