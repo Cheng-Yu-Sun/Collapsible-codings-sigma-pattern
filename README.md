@@ -28,6 +28,8 @@ This repository contains the R code and data files for reproducing the numerical
 └── outputs/
 ```
 
+The `results/` and `outputs/` folders are used for storing generated numerical results, figures, tables, and intermediate files. If these folders are not already present, the scripts will create them automatically when needed.
+
 ## Required R packages
 
 The following R packages are required:
@@ -41,11 +43,11 @@ install.packages(c(
 
 The package `parallel` is also used, but it is included with base R.
 
-## Important note on working directory
+## Working directory
 
 Before running the scripts, please set the working directory to the repository root.
 
-The repository root is the folder containing `README.md`, `R/`, `data/`, `results/`, and `outputs/`.
+The repository root is the folder containing `README.md`, `R/`, and `data/`.
 
 Some scripts include a simple check that moves the working directory back to the repository root if they are run from a subfolder.
 
@@ -127,7 +129,8 @@ Run:
 source("R/Table3_regular_9level_81run.R")
 ```
 
-For $begin:math:text$m \= 3\,4\,5$end:math:text$, the designs are obtained by exhaustive search with complete Sigma-pattern comparison.  
+For $begin:math:text$m \= 3\,4\,5$end:math:text$, the designs are obtained by exhaustive search with complete Sigma-pattern comparison.
+
 For $begin:math:text$m \= 6\,\\ldots\,10$end:math:text$, the designs are obtained by the partial iterative procedure described in the Supplement and are reported as nearly Sigma-optimal.
 
 The final results are saved in `outputs/tables/`.
@@ -136,9 +139,9 @@ Intermediate files are saved in `outputs/Table3_intermediate/`.
 
 ## Notes on computation
 
-The simulation scripts may take time because Gaussian process models are fitted repeatedly.
+The simulation scripts may take some time because Gaussian process models are fitted repeatedly.
 
-The regular-design search scripts, especially those for Tables 2 and 3, may also be computationally intensive. The intermediate `.rds` files are saved to avoid losing search results during long runs.
+The regular-design search scripts, especially those for Tables 2 and 3, may also be computationally intensive. Intermediate `.rds` files are saved to avoid losing search results during long runs.
 
 ## License
 
