@@ -1,0 +1,4 @@
+"m","generating_matrix","n1","n2","n3","search_type"
+3,"1, 4, 11",0,0,1,"exhaustive"
+4,"1, 4, 11, 14",0,0,4,"exhaustive"
+5,"1, 4, 6, 9, 10",0,10,0,"exhaustive"
