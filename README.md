@@ -4,6 +4,8 @@ This repository contains the R code and data files for reproducing the numerical
 
 **A Unified Framework for Multi-Scale Stratification in Space-Filling Designs via Collapsible Codings**
 
+To reproduce the results, please download or clone the entire repository, open R or RStudio, set the working directory to the repository root, and then run the corresponding `source()` command listed below.
+
 ## Repository structure
 
 ```text
