@@ -1,0 +1,5 @@
+"z","criterion","considered","retained","starts_per_A","search_runs","seconds","sigma33","sigma42"
+4,"Sigma",144,144,100,14400,720.76,14,14
+4,"SP",144,1,100,100,7.6,0,105
+6,"Sigma",101,101,50,5050,275.11,68,5.83
+6,"SP",1000,1,50,50,14.69,32.72,74.5
